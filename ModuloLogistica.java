@@ -7,7 +7,7 @@ import java.util.concurrent.TimeUnit;
 public class ModuloLogistica {
 
     private static final String IDENTIFICADOR = "LOGISTICA";
-    private static final int TOTAL_PIEZAS = 30; // Lote de 30 piezas
+    private static final int TOTAL_PIEZAS = 10; // Lote de 30 piezas
 
     public static void main(String[] args) {
         DateTimeFormatter timeFormatter = DateTimeFormatter.ofPattern("HH:mm:ss");
